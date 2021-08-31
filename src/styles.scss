@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+// Global styles
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+// Overriding the default colors
+$primary: #ff8000;
+$secondary: #00b8b8;
+$danger: #ff002c;
+$warning: #f05700;
+$dark: #002929;
+$dropdown-link-hover-bg: rgba($dark, 0.5);
+
+// Overriding the default font-weight
+$display-font-weight: 400;
+
+// Importing Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
